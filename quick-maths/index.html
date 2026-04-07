@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quick-Maths</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="header">
+          <h1>Quick-Maths</h1>
+          <p class="subtitle">Type two numbers to see their sum</p>
+        </div>
+
+        <div class="inputs">
+          <input type="number" id="num1" placeholder="0" />
+          <span class="plus">+</span>
+          <input type="number" id="num2" placeholder="0" />
+        </div>
+
+        <button id="calc-btn">Calculate</button>
+
+        <div class="divider"></div>
+
+        <div class="result-row">
+          <span class="result-label">Total</span>
+          <span id="result" class="result-value">0</span>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
